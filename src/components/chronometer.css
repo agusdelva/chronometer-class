@@ -1,0 +1,35 @@
+.caja-crono {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.caja-crono-hijo {
+  border: 2px solid rgb(63, 67, 70);
+  border-radius: 20px;
+  width: 400px;
+}
+
+.button {
+  background-color: #387ef5;
+  border: #387ef5;
+  outline: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  color: #444;
+}
+
+.lista {
+  margin-right: 2em;
+}
+
+.lista-hijo {
+  list-style: none;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border: 1px solid black;
+  border-radius: 10px;
+}
